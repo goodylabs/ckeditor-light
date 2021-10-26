@@ -23,6 +23,8 @@ import Link from "@ckeditor/ckeditor5-link/src/link.js";
 import LinkImage from "@ckeditor/ckeditor5-link/src/linkimage.js";
 import List from "@ckeditor/ckeditor5-list/src/list.js";
 import MediaEmbed from "@ckeditor/ckeditor5-media-embed/src/mediaembed.js";
+import CKFinder from "@ckeditor/ckeditor5-ckfinder/src/ckfinder.js";
+import CKFinderUploadAdapter from "@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter.js";
 import Paragraph from "@ckeditor/ckeditor5-paragraph/src/paragraph.js";
 import RemoveFormat from "@ckeditor/ckeditor5-remove-format/src/removeformat.js";
 import Strikethrough from "@ckeditor/ckeditor5-basic-styles/src/strikethrough.js";
@@ -44,6 +46,8 @@ Editor.builtinPlugins = [
   AutoLink,
   BlockQuote,
   Bold,
+  CKFinder,
+  CKFinderUploadAdapter,
   Essentials,
   Heading,
   HorizontalLine,
