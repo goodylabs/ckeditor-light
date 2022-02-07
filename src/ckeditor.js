@@ -34,6 +34,7 @@ import TableProperties from "@ckeditor/ckeditor5-table/src/tableproperties";
 import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar.js";
 import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformation.js";
 import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline.js";
+import TextPartLanguage from '@ckeditor/ckeditor5-language/src/textpartlanguage';
 
 class Editor extends ClassicEditor {}
 
@@ -70,6 +71,7 @@ Editor.builtinPlugins = [
   TableToolbar,
   TextTransformation,
   Underline,
+  TextPartLanguage,
 ];
 
 export default Editor;
