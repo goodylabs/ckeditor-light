@@ -29,12 +29,12 @@ import Strikethrough from "@ckeditor/ckeditor5-basic-styles/src/strikethrough.js
 import Subscript from "@ckeditor/ckeditor5-basic-styles/src/subscript.js";
 import Superscript from "@ckeditor/ckeditor5-basic-styles/src/superscript.js";
 import Table from "@ckeditor/ckeditor5-table/src/table.js";
-import TableCellProperties from "@ckeditor/ckeditor5-table/src/tablecellproperties";
+import TableCellProperties from "@ckeditor/ckeditor5-table/src/tablecellproperties.js";
 import TableProperties from "@ckeditor/ckeditor5-table/src/tableproperties";
 import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar.js";
 import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformation.js";
 import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline.js";
-import TextPartLanguage from '@ckeditor/ckeditor5-language/src/textpartlanguage';
+import TextPartLanguage from '@ckeditor/ckeditor5-language/src/textpartlanguage.js';
 
 class Editor extends ClassicEditor {}
 
